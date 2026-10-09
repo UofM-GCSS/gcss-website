@@ -1,5 +1,8 @@
 ---
-date: '{{ .Date }}'
+title: Required
+description:
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+showHeader: true
 ---
+
+Page content here
