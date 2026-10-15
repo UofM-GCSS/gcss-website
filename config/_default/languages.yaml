@@ -1,0 +1,85 @@
+en:
+  languageName: English
+  weight: 1
+  ### copyright (markdown can be used) ###
+  copyright: "Copyright &copy; {{< current_year >}} Graduate Computer Science Society"
+  title: "Graduate Computer Science Society"
+  params:
+    disablePathToLower: true
+    titleShort: "GCSS"
+    description: "Official website for Graduate Computer Science Society at the University of Manitoba."
+    ### accessibility ###
+    #accessibility:
+      #skip_text: "Skip to content"
+      #help_text: "Accessibility Statement"
+      #help_url: "/example-page/"
+    ### calls to action ###
+    #main_cta:
+      #text: "Join"
+      #link: "/example-page/"
+    #footer_cta:
+      #text: "Join us"
+      #link: "/example-page/"
+    #github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 1
+    - identifier: "mission"
+      name: "Mission"
+      url: "/about/mission"
+      weight: 1
+      post: "Purpose of GCSS."
+      parent: "about"
+    - identifier: "cofc"
+      name: "Code of Conduct"
+      url: "/about/cofc"
+      weight: 2
+      post: "Rules for GCSS events."
+      parent: "about"
+    - identifier: "constitution"
+      name: "Constitution & By-laws"
+      url: "/files/GCSS-constitution.pdf"
+      weight: 3
+      post: "Official document governing GCSS operations."
+      parent: "about"
+    - identifier: "executives"
+      name: "Executives"
+      url: "/exec/"
+      weight: 2
+    - identifier: "2026-2027"
+      name: "2026-2027"
+      url: "/exec/2026-2027"
+      weight: 1
+      parent: "executives"
+    - identifier: "events"
+      name: "Events"
+      url: "/events/"
+      weight: 3
+    - identifier: "seminars"
+      name: "CS Grad Seminars"
+      url: "/events/seminars"
+      weight: 1
+      post: "A seminar series where the speakers are graduate students."
+      parent: "events"
+#es:
+#  languageName: Spanish
+#  contentDir: content/es
+#  weight: 2
+#  title: "Título del Sitio"
+#  params:
+#    description: "Descripción del Sitio"
+#  menu:
+#    main:
+#    - identifier: "about"
+#      name: "Acerca de"
+#      url: "/example-page/"
+#      weight: 1
+#    - identifier: "child-1"
+#      name: "Página Hija de Ejemplo"
+#      url: "/example-page/"
+#      weight: 1
+#      parent: "about"
