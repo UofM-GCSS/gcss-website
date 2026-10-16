@@ -6,7 +6,6 @@ showHeader: true
 ---
 
 The University of Manitoba Graduate Computer Science Society (GCSS) is a student-governed association representing the graduate students in the Department of Computer Science. The mission of GCSS is to:
-
 - provide graduate student representation at the department level and at the UofM Graduate & Postdoctoral Society (UMGPS) Council.
 - support the academic and professional growth of graduate students.
 - promote graduate student advocacy and make proper use of departmental and external resources to benefit graduate students.

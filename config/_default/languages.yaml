@@ -65,6 +65,10 @@ en:
       weight: 1
       post: "A seminar series where the speakers are graduate students."
       parent: "events"
+    - identifier: "contact"
+      name: "Contact"
+      url: "/contact/"
+      weight: 4
 #es:
 #  languageName: Spanish
 #  contentDir: content/es
