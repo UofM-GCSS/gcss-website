@@ -21,7 +21,7 @@ social_links:
   facebook: ""
   flickr: ""
   github: "https://github.com/UofM-GCSS"
-  instagram: ""
+  instagram: "https://www.instagram.com/um.gcss/"
   landscape: ""
   linkedin: ""
   mastodon: ""
@@ -38,3 +38,11 @@ social_links:
 sticky_header: true
 # Enable search in header UI
 show_search: true
+
+# announcement banner
+announcement:
+  enabled: true
+  message: "GCSS Logo Competition is on!"
+  link: "/logo-competition/"
+  linkText: "Learn more."
+  backgroundColor: "#282828"
